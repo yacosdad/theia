@@ -1,0 +1,145 @@
+{
+  "theia": {
+    "core": {
+      "common": {
+        "showNextTabInGroup": "Switch to Next Tab in Group",
+        "showPreviousTabInGroup": "Switch to Previous Tab in Group",
+        "showNextTabGroup": "Switch to Next Tab Group",
+        "showPreviousTabGroup": "Switch to Previous Tab Group",
+        "closeTab": "Close Tab",
+        "closeOthers": "Close Other Tabs",
+        "closeRight": "Close Tabs to the Right",
+        "closeAll": "Close All Tabs",
+        "closeTabMain": "Close Tab in Main Area",
+        "closeOtherTabMain": "Close Other Tabs in Main Area",
+        "closeAllTabMain": "Close All Tabs in Main Area",
+        "collapseTab": "Collapse Side Panel",
+        "collapseAllTabs": "Collapse All Side Panels",
+        "collapseBottomPanel": "Toggle Bottom Panel",
+        "toggleMaximized": "Toggle Maximized"
+      },
+      "keyboard": {
+        "choose": "Choose Keyboard Layout",
+        "chooseLayout": "Choose a keyboard layout",
+        "current": "(current: {0})",
+        "currentLayout": " - current layout",
+        "tryDetect": "Try to detect the keyboard layout from browser information and pressed keys.",
+        "mac": "Mac Keyboards",
+        "pc": "PC Keyboards"
+      }
+    },
+    "debug": {
+      "continueAll": "Continue All",
+      "pauseAll": "Pause All",
+      "copyExpressionValue": "Copy Expression Value",
+      "reveal": "Reveal",
+      "openLeft": "Open Left",
+      "openRight": "Open Right",
+      "openBottom": "Open Bottom",
+      "threads": "Threads"
+    },
+    "editor": {
+      "showAllEditors": "Show All Opened Editors",
+      "reopenDirty": "The file is dirty. Please save it first before reopening it with another encoding."
+    },
+    "external-terminal": {
+      "cwd": "Select current working directory for new external terminal"
+    },
+    "filesystem": {
+      "uploadFiles": "Upload Files...",
+      "copyDownloadLink": "Copy Download Link"
+    },
+    "getting-started": {
+      "newExtension": "Building a New Extension",
+      "newPlugin": "Building a New Plugin"
+    },
+    "git": {
+      "toggleBlameAnnotations": "Toggle Blame Annotations",
+      "addSignedOff": "Add Signed-off-by",
+      "noPreviousCommit": "No previous commit to amend",
+      "added": "Added",
+      "unstaged": "Unstaged",
+      "renamed": "Renamed",
+      "copied": "Copied",
+      "conflicted": "Conflicted"
+    },
+    "markers": {
+      "clearAll": "Clear All"
+    },
+    "mini-browser": {
+      "typeUrl": "Type a URL"
+    },
+    "navigator": {
+      "reveal": "Reveal in Explorer",
+      "toggleHiddenFiles": "Toggle Hidden Files",
+      "autoReveal": "Auto Reveal",
+      "refresh": "Refresh in Explorer"
+    },
+    "output": {
+      "clearOutputChannel": "Clear Output Channel...",
+      "showOutputChannel": "Show Output Channel...",
+      "hideOutputChannel": "Hide Output Channel...",
+      "closeOutputChannel": "Close Output Channel...",
+      "outputChannels": "Output Channels",
+      "hiddenChannels": "Hidden Channels"
+    },
+    "preview": {
+      "openPreviewSide": "Open Preview to the Side",
+      "openSource": "Open Source"
+    },
+    "property-view": {
+      "properties": "Properties",
+      "directory": "Directory",
+      "file": "File",
+      "symbolicLink": "Symbolic link",
+      "location": "Location",
+      "name": "Name",
+      "path": "Path",
+      "lastModified": "Last modified",
+      "created": "Created",
+      "size": "Size"
+    },
+    "scm": {
+      "amendHeadCommit": "HEAD Commit",
+      "amendLastCommit": "Amend last commit",
+      "amend": "Amend",
+      "unamendCommit": "Unamend commit",
+      "unamend": "Unamend",
+      "history": "History",
+      "changeRepository": "Change Repository..."
+    },
+    "siw": {
+      "includeIgnoredFiles": "Include Ignored Files",
+      "noFolderSpecified": "You have not opened or specified a folder. Only open files are currently searched.",
+      "resultSubset": "This is only a subset of all results. Use a more specific search term to narrow down the result list."
+    },
+    "task": {
+      "attachTask": "Attach Task...",
+      "openUserTasks": "Open User Tasks",
+      "clearHistory": "Clear History"
+    },
+    "typehierarchy": {
+      "typeHierarchy": "Type Hierarchy",
+      "subtypeHierarchy": "Subtype Hierarchy",
+      "supertypeHierarchy": "Supertype Hierarchy"
+    },
+    "vsx-registry": {
+      "installFromVSIX": "Install from VSIX",
+      "openVSX": "Open VSX Registry"
+    },
+    "workspace": {
+      "failSaveAs": "Cannot run \"{0}\" for the current widget.",
+      "openRecentWorkspace": "Open Recent Workspace...",
+      "closeWorkspace": "Do you really want to close the workspace?",
+      "duplicate": "Duplicate",
+      "workspaceFolderAddedTitle": "Folder added to Workspace",
+      "workspaceFolderAdded": "A workspace with multiple roots was created. Do you want to save your workspace configuration as a file?",
+      "noErasure": "Note: Nothing will be erased from disk",
+      "failApply": "Could not apply changes to new file"
+    },
+    "webview": {
+      "goToReadme": "Go To README",
+      "messageWarning": "The {0} endpoint's host pattern has been changed to `{1}`; changing the pattern can lead to security vulnerabilities. See `{2}` for more information."
+    }
+  }
+}
