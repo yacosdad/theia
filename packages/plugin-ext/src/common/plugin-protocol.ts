@@ -554,6 +554,7 @@ export interface Localization {
 
 export interface Translation {
     id: string;
+    path: string;
     version: string;
     contents: { [scope: string]: { [key: string]: string } }
 }
