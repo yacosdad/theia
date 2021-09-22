@@ -13,6 +13,8 @@
 - [task] `TaskDefinition.properties.required` is now optional to align with the specification [#10015](https://github.com/eclipse-theia/theia/pull/10015)
 - [core] `setTopPanelVisibily` renamed to `setTopPanelVisibility` [#10020](https://github.com/eclipse-theia/theia/pull/10020)
 - [application-manager] break `rebuild` API: second argument is now an optional object instead of an optional array.
+- [output] moved `output-channel` from `common` to `browser` [#10154](https://github.com/eclipse-theia/theia/pull/10154)
+- [output] moved `output-preferences` from `common` to `core` [#10154](https://github.com/eclipse-theia/theia/pull/10154)
 
 ## v1.17.2 - 9/1/2021
 
