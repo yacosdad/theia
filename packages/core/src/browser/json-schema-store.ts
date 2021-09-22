@@ -17,8 +17,7 @@
 import { injectable, inject, named } from 'inversify';
 import { ContributionProvider } from '../common/contribution-provider';
 import { FrontendApplicationContribution } from './frontend-application';
-import { MaybePromise } from '../common';
-import { Endpoint } from './endpoint';
+import { Endpoint, MaybePromise } from '../common';
 import { timeout, Deferred } from '../common/promise-util';
 
 export interface JsonSchemaConfiguration {

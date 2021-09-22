@@ -43,7 +43,7 @@ import { ExternalUriService } from '@theia/core/lib/browser/external-uri-service
 import { OutputChannelManager } from '@theia/output/lib/common/output-channel';
 import { WebviewPreferences } from './webview-preferences';
 import { WebviewResourceCache } from './webview-resource-cache';
-import { Endpoint } from '@theia/core/lib/browser/endpoint';
+import { Endpoint } from '@theia/core/lib/common/endpoint';
 import { FileService } from '@theia/filesystem/lib/browser/file-service';
 import { FileOperationError, FileOperationResult } from '@theia/filesystem/lib/common/files';
 import { BinaryBufferReadableStream } from '@theia/core/lib/common/buffer';

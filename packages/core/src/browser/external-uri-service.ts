@@ -17,7 +17,7 @@
 import { injectable } from 'inversify';
 import URI from '../common/uri';
 import { MaybePromise } from '../common/types';
-import { Endpoint } from './endpoint';
+import { Endpoint } from '../common/endpoint';
 
 @injectable()
 export class ExternalUriService {

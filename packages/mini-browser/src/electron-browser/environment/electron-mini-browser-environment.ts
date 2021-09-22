@@ -14,7 +14,7 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  ********************************************************************************/
 
-import { Endpoint } from '@theia/core/lib/browser';
+import { Endpoint } from '@theia/core/lib/common';
 import { ElectronSecurityToken } from '@theia/core/lib/electron-common/electron-token';
 import { remote } from '@theia/core/shared/electron';
 import { inject, injectable } from '@theia/core/shared/inversify';

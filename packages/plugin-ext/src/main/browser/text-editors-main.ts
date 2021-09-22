@@ -40,7 +40,7 @@ import { toMonacoWorkspaceEdit } from './languages-main';
 import { MonacoBulkEditService } from '@theia/monaco/lib/browser/monaco-bulk-edit-service';
 import { MonacoEditorService } from '@theia/monaco/lib/browser/monaco-editor-service';
 import { theiaUritoUriComponents, UriComponents } from '../../common/uri-components';
-import { Endpoint } from '@theia/core/lib/browser/endpoint';
+import { Endpoint } from '@theia/core/lib/common/endpoint';
 
 export class TextEditorsMainImpl implements TextEditorsMain, Disposable {
 

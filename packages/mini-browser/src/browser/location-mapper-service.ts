@@ -16,7 +16,7 @@
 
 import { inject, injectable, named } from '@theia/core/shared/inversify';
 import URI from '@theia/core/lib/common/uri';
-import { Endpoint } from '@theia/core/lib/browser';
+import { Endpoint } from '@theia/core/lib/common';
 import { MaybePromise, Prioritizeable } from '@theia/core/lib/common/types';
 import { ContributionProvider } from '@theia/core/lib/common/contribution-provider';
 import { MiniBrowserEnvironment } from './environment/mini-browser-environment';

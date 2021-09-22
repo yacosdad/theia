@@ -19,7 +19,7 @@ import { Disposable, DisposableCollection } from '@theia/core/lib/common/disposa
 import { ThemeService, Theme } from '@theia/core/lib/browser/theming';
 import { IconUrl } from '../../common/plugin-protocol';
 import { Reference, SyncReferenceCollection } from '@theia/core/lib/common/reference';
-import { Endpoint } from '@theia/core/lib/browser/endpoint';
+import { Endpoint } from '@theia/core/lib/common/endpoint';
 
 export interface PluginIconKey {
     url: IconUrl

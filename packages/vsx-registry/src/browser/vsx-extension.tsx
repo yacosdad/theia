@@ -24,7 +24,7 @@ import { HostedPluginSupport } from '@theia/plugin-ext/lib/hosted/browser/hosted
 import { PluginServer, DeployedPlugin, PluginType } from '@theia/plugin-ext/lib/common/plugin-protocol';
 import { VSXExtensionUri } from '../common/vsx-extension-uri';
 import { ProgressService } from '@theia/core/lib/common/progress-service';
-import { Endpoint } from '@theia/core/lib/browser/endpoint';
+import { Endpoint } from '@theia/core/lib/common/endpoint';
 import { VSXEnvironment } from '../common/vsx-environment';
 import { VSXExtensionsSearchModel } from './vsx-extensions-search-model';
 import { MenuPath } from '@theia/core/lib/common';

@@ -33,7 +33,7 @@ import { LabelProviderContribution, DidChangeLabelEvent, LabelProvider, URIIconR
 import { ThemeType } from '@theia/core/lib/browser/theming';
 import { FileStatNode, DirNode } from '@theia/filesystem/lib/browser';
 import { WorkspaceRootNode } from '@theia/navigator/lib/browser/navigator-tree';
-import { Endpoint } from '@theia/core/lib/browser/endpoint';
+import { Endpoint } from '@theia/core/lib/common/endpoint';
 import { FileService } from '@theia/filesystem/lib/browser/file-service';
 import { FileStat, FileChangeType } from '@theia/filesystem/lib/common/files';
 import { WorkspaceService } from '@theia/workspace/lib/browser';

@@ -17,7 +17,7 @@
 import { injectable, interfaces, decorate, unmanaged, inject, optional } from 'inversify';
 import { JsonRpcProxyFactory, JsonRpcProxy, Emitter, Event, MessageService, MessageServiceFactory } from '../../common';
 import { WebSocketChannel } from '../../common/messaging/web-socket-channel';
-import { Endpoint } from '../endpoint';
+import { Endpoint } from '../../common/endpoint';
 import ReconnectingWebSocket from 'reconnecting-websocket';
 import { AbstractConnectionProvider } from '../../common/messaging/abstract-connection-provider';
 import { v4 as uuid } from 'uuid';
