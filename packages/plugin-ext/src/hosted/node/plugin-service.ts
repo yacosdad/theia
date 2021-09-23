@@ -121,6 +121,7 @@ export class HostedPluginServerImpl implements HostedPluginServer {
     }
 
     protected async localizePlugin(plugin: DeployedPlugin, locale: string): Promise<DeployedPlugin> {
+        console.error('!!!!!!!!!!!! THEIA !!!!!! localize plugin ');
         const packagePath = plugin.metadata.model.packagePath;
         const translatedManifest = await loadManifest(packagePath, locale);
         this.mergeContributes(plugin.contributes, translatedManifest.contributes);
